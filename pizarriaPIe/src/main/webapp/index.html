@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria - Cardápio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#cardapio">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contato">Contato</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Pages/login.html">Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="Img/pizza.png" class="d-block w-100" alt="Imagem de Fundo"></div>
+    </div>
+</div>
+
+
+<div class="container mt-5" id="cardapio">
+    <h1 class="text-center">Cardápio de Pizzas</h1>
+    <div class="row">
+
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/pizza ma.png" class="card-img-top" alt="Pizza Margherita"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Margherita</h5>
+                    <p class="card-text">Queijo mozzarella, tomate fresco e manjericão.</p>
+                    <p class="card-text"><strong>R$ 35,00</strong></p>
+                    <a href="Pages/pedido.html?item=Margherita&preco=35" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/pizza calebreza.png" class="card-img-top" alt="Pizza Calabresa"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Calabresa</h5>
+                    <p class="card-text">Calabresa fatiada, cebola, e queijo mozzarella.</p>
+                    <p class="card-text"><strong>R$ 40,00</strong></p>
+                    <a href="Pages/pedido.html?item=Calabresa&preco=40" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/quatro queijos.png" class="card-img-top" alt="Pizza Quatro Queijos"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Quatro Queijos</h5>
+                    <p class="card-text">Mozzarella, gorgonzola, provolone, parmesão.</p>
+                    <p class="card-text"><strong>R$ 45,00</strong></p>
+                    <a href="Pages/pedido.html?item=QuatroQueijos&preco=45" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/port.png" class="card-img-top" alt="Pizza Portuguesa"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Portuguesa</h5>
+                    <p class="card-text">Presunto, ovo, cebola, e azeitonas pretas.</p>
+                    <p class="card-text"><strong>R$ 42,00</strong></p>
+                    <a href="Pages/pedido.html?item=Portuguesa&preco=42" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/frango.png" class="card-img-top" alt="Pizza Frango com Catupiry"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Frango com Catupiry</h5>
+                    <p class="card-text">Frango desfiado e catupiry cremoso.</p>
+                    <p class="card-text"><strong>R$ 38,00</strong></p>
+                    <a href="Pages/pedido.html?item=FrangoComCatupiry&preco=38" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/Pepperoni.png" class="card-img-top" alt="Pizza Pepperoni"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Pepperoni</h5>
+                    <p class="card-text">Pepperoni fatiado e queijo mozzarella.</p>
+                    <p class="card-text"><strong>R$ 43,00</strong></p>
+                    <a href="Pages/pedido.html?item=Pepperoni&preco=43" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/Napolitana.png" class="card-img-top" alt="Pizza Napolitana"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Napolitana</h5>
+                    <p class="card-text">Tomate fresco, alho, queijo parmesão e orégano.</p>
+                    <p class="card-text"><strong>R$ 37,00</strong></p>
+                    <a href="Pages/pedido.html?item=Napolitana&preco=37" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/Vegetariana.png"  class="card-img-top" alt="Pizza Vegetariana"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Vegetariana</h5>
+                    <p class="card-text">Brócolis, palmito, azeitonas e queijo mozzarella.</p>
+                    <p class="card-text"><strong>R$ 39,00</strong></p>
+                    <a href="Pages/pedido.html?item=Vegetariana&preco=39" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/Mexicana.png"  class="card-img-top" alt="Pizza Mexicana"/>
+                <div class="card-body">
+                    <h5 class="card-title">Pizza Mexicana</h5>
+                    <p class="card-text">Carne moída, jalapeños, queijo cheddar e molho picante.</p>
+                    <p class="card-text"><strong>R$ 46,00</strong></p>
+                    <a href="Pages/pedido.html?item=Mexicana&preco=46" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<h1 class="text-center mt-5">Bebidas</h1>
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/refri.png" class="card-img-top" alt="Refrigerante"/>
+                <div class="card-body">
+                    <h5 class="card-title">Refrigerante</h5>
+                    <p class="card-text">R$ 5,00</p>
+                    <a href="Pages/pedido.html" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/cerveja.png" class="card-img-top" alt="Cerveja"/>
+                <div class="card-body">
+                    <h5 class="card-title">Cerveja</h5>
+                    <p class="card-text">R$ 7,00</p>
+                    <a href="Pages/pedido.html" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card shadow-sm">
+                <img src="Img/suco.png" class="card-img-top" alt="Suco"/>
+                <div class="card-body">
+                    <h5 class="card-title">Suco Natural</h5>
+                    <p class="card-text">R$ 6,00</p>
+                    <a href="Pages/pedido.html" class="btn btn-primary">Adicionar ao Pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container mt-5" id="contato">
+    <div class="row">
+        <div class="col-md-6">
+            <h5>Entre em contato conosco:</h5>
+            <p>Endereço: Rua das Pizzas, 123, Bairro Delicioso</p>
+            <p>Telefone: (00) 1234-5678</p>
+            <p>Email: contato@pizzaria.com</p>
+        </div>
+        <div class="col-md-6">
+            <h5>Envie uma mensagem:</h5>
+            <form>
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensagem" class="form-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

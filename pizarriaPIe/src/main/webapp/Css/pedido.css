@@ -1,0 +1,35 @@
+body {
+    background-color: #ffcccc;
+}
+
+.navbar {
+    background-color: #ffcccc;
+}
+
+.list-group-item {
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.list-group-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.btn-danger {
+    margin-left: 15px;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
